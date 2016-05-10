@@ -11,7 +11,7 @@
 let blackBearIsBest = true
 let bearsEatBeets = true
 let bearsBeetsBattlestarGalactica = true
-let identifyTheftIsAJoke = false
+let identityTheftIsAJoke = false
 ```
 
 * Utilize the `if` statement to evaluate simple conditions with only a few possible outcomes, like so:
