@@ -50,6 +50,7 @@ let canDolphinsWalk = false
 ## Outline / Notes
 
 * Make no assumptions. I think the idea of `Bool`'s will come easy to the student **but** I still think we should be as explicit as possible.
+* Considering we're not using a narrative above, drill it home by using a lot of examples.
  
 
 <a href='https://learn.co/lessons/Booleans' data-visibility='hidden'>View this lesson on Learn.co</a>
