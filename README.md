@@ -1,40 +1,41 @@
 # Booleans
 
-![The Office](http://images.lifeandstylemag.com/uploads/photos/file/119643/the-office-prank-11.jpg?crop=top&fit=clip&h=500&w=698)
+![Dolphin Guy](http://i.giphy.com/RdkwfjGlsdnRm.gif)
 
 ## Learning Objectives - The student should be able to..
 
-* Explain that the `Bool` type is referred to as *logical* because they can only ever be **true** or **false**. 
+* Explain that the `Bool` is a data type where the value can only be **true** or **false**.
 * Create variables using the Boolean literal values, `true` or `false` like so:
 
 ```swift
-let blackBearIsBest = true
-let bearsEatBeets = true
-let bearsBeetsBattlestarGalactica = true
-let identityTheftIsAJoke = false
+let isTheSkyBlue = true
+let isTheGrassGreen = true
+let canHumansFly = false
+let canDolphinsWalk = false
 ```
 
-* Utilize the `if` statement to evaluate simple conditions with only a few possible outcomes, like so:
+* Explain and use all the various comparison operators:
+	* Equal to (a == b)
+	* Not equal to (a != b)
+	* Greater than (a > b)
+	* Less than (a < b)
+	* Greater than or equal to (a >= b)
+	* Less than or equal to (a <= b)
+	
+
+* Explain and use all of the various logical operators:
+	* Logical NOT (!a)
+	* Logical AND (a && b)
+	* Logical OR (a || b)
 
 ```swift
-if blackBearIsBest {
-    print("The black bear is best.")
-}
+1 == 1   // true because 1 is equal to 1
+2 != 1   // true because 2 is not equal to 1
+2 > 1    // true because 2 is greater than 1
+1 < 2    // true because 1 is less than 2
+1 >= 1   // true because 1 is greater than or equal to 1
+2 <= 1   // false because 2 is not less than or equal to 1
 ```
-
-* Utilize the `else clause`, for situations when the `if ` condition is `false`, like so:
-
-```swift
-if blackBearIsBest {
-    print("The black bear is best.")
-} else {
-    print("There's no such thing as a bear being the best.")
-}
-```
-
-
-
-
 
 
 ## What the student can do at this point 
@@ -48,9 +49,7 @@ if blackBearIsBest {
 
 ## Outline / Notes
 
-*  I like the idea of building a narrative around The Office (like I did above, including the photo of Jim pretending to be Dwight).
-* Similar to the other readme's, make no assumptions. I think the idea of `Bool`'s will come easy to the student **but** I still think we should be as explicit as possible. It will make it easier for them to see what's going on with the `if` and `else clause`. 
-* Challenge them to create multiple functions that take in argument(s) and return back a `Bool` that evaluates one of the arguments coming in.
-* The student might get confused over the use of the curly braces `{ }`. Bring them back to their understanding of functions in how the code within that function only executes when someone calls on that function. Same thing with the `if` statement, the code only executes within those curly braces `{ }` when the statement to the right of the `if` keyword evaluates to `true`. 
+* Make no assumptions. I think the idea of `Bool`'s will come easy to the student **but** I still think we should be as explicit as possible.
+ 
 
 <a href='https://learn.co/lessons/Booleans' data-visibility='hidden'>View this lesson on Learn.co</a>
