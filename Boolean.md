@@ -1,26 +1,4 @@
-# Booleans
-
-![Dolphin Guy](http://i.giphy.com/RdkwfjGlsdnRm.gif)
-
-## Learning Objectives - The student should be able to..
-
-* Explain that the `Bool` is a data type where the value can only be **true** or **false**.
-* Create variables using the Boolean literal values, `true` or `false`
-* Explain and use all the various comparison operators:
-	* Equal to (a == b)
-	* Not equal to (a != b)
-	* Greater than (a > b)
-	* Less than (a < b)
-	* Greater than or equal to (a >= b)
-	* Less than or equal to (a <= b)
-* Explain and use all of the various logical operators:
-	* Logical NOT (!a)
-	* Logical AND (a && b)
-	* Logical OR (a || b)
-```
-
-
-## Outline / Notes
+##Boolean Type
 Boolean is a fancy term meaning something that is either true or false.  While numbers and math form the backbone of any piece of software, everything (and I do mean everything) in computers, software and microchips, breaks down to ones and zeros, true and false.  While it isn't important to understand why that is and how exactly it works, it is important to understand how boolean expressions work so that your code will be able to do something interesting like this:
 
 ````Swift
@@ -135,6 +113,9 @@ When it comes to "real world" programming boolean expressions are used to check 
 ````Swift
 var fileExists = false
 ````
-In our program, if ````fileExists```` is ````false````, we can show an alert to the user letting them know that ther eisn't a file and prompt them to look for another file.  If ````fileExists```` is ````true```` then we can continue on with our program and show the contents of the file to the user. 
+In our program, if ````fileExists```` is ````false````, we can show an alert to the user letting them know that ther eisn't a file and prompt them to look for another file.  If ````fileExists```` is ````true```` then we can continue on with our program and show the contents of the file to the user.
 
-<a href='https://learn.co/lessons/Booleans' data-visibility='hidden'>View this lesson on Learn.co</a>
+	
+	
+
+
