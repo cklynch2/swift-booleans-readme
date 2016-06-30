@@ -22,7 +22,7 @@
 ```
 
 
-##Boolean Type
+## Boolean Type
 Boolean is a fancy term meaning something that is either true or false.  While numbers and math form the backbone of any piece of software, everything (and I do mean everything) in computers, software and microchips, breaks down to ones and zeros, true and false.  While it isn't important to understand why that is and how exactly it works, it is important to understand how boolean expressions work so that your code will be able to do something interesting like this:
 
 ````Swift
