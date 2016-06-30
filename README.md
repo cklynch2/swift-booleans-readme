@@ -19,7 +19,6 @@
 	* Logical NOT (!a)
 	* Logical AND (a && b)
 	* Logical OR (a || b)
-```
 
 
 ## Boolean Type
