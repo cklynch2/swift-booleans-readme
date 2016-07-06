@@ -111,7 +111,7 @@ providedPassword && passedRetinaScan // true
 ````
 
 ##Negation
-You can use the "not" (!) operator to invert the value of any boolean value or expression.  Not that you can't have any space between the "!" and the value it's negating.  For example:
+You can use the "not" (!) operator to invert the value of any boolean value or expression.  Note that you can't have any space between the "!" and the value it's negating.  For example:
 
 ````Swift
 ! true  (syntax error)
@@ -140,3 +140,5 @@ In our program, if ````fileExists```` is ````false````, we can show an alert to 
  
 
 <a href='https://learn.co/lessons/Booleans' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-booleans-readme'>Booleans and Operators</a> on Learn.co and start learning to code for free.</p>
