@@ -58,7 +58,7 @@ Going with the example above, our program would like to know if isHungry is true
 
 Almost every program you write will need to take different courses of action based on boolean values, so it's important to have a really good grasp of what booleans and boolean expressions are as well as how to use them.
 
-Swift recognizes a value as boolean if it sees ````true```` or ````false````.  You can implicitly declar a boolean variable ````let a = false```` or explicitly declare a boolean variable ````let i:Bool = true````.
+Swift recognizes a value as boolean if it sees ````true```` or ````false````.  You can implicitly declare a boolean variable ````let a = false```` or explicitly declare a boolean variable ````let i:Bool = true````.
 
 ````Swift
 var a: Bool = true
@@ -140,3 +140,5 @@ In our program, if ````fileExists```` is ````false````, we can show an alert to 
  
 
 <a href='https://learn.co/lessons/Booleans' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-booleans-readme'>Booleans and Operators</a> on Learn.co and start learning to code for free.</p>
